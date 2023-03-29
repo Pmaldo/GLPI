@@ -37,7 +37,7 @@ public class Test_LoginGlpi {
 
     @Test
     public void testLoginGlpi() {
-        driver.get("http://epsiprojet.infinityfreeapp.com/glpi_10_0_6/index.php");
+        driver.get("http://epsiprojet.infinityfreeapp.com/glpi_10_0_6/front/central.php");
  //       driver.manage().window().setSize(new Dimension(961, 803));
  //        driver.findElement(By.name("fieldb64102e9683764")).sendKeys("Grazerty22!");
 
@@ -57,9 +57,8 @@ public class Test_LoginGlpi {
         // Pour afficher un message d'erreur explicite si erreur dans l'URL :
         assertEquals(
                 "Validate end URL",
-        //        "http://epsiprojet.infinityfreeapp.com/glpi_10_0_6/front/central.php",
-				"http://epsiprojet.infinityfreeapp.com/glpi_10_0_6/index.php",
-                driver.getCurrentUrl()
+                "http://epsiprojet.infinityfreeapp.com/glpi_10_0_6/front/central.php",
+		                driver.getCurrentUrl()
         );
 
        /*
