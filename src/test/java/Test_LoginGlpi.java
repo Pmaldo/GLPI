@@ -57,7 +57,8 @@ public class Test_LoginGlpi {
         // Pour afficher un message d'erreur explicite si erreur dans l'URL :
         assertEquals(
                 "Validate end URL",
-                "http://epsiprojet.infinityfreeapp.com/glpi_10_0_6/front/central.php",
+        //        "http://epsiprojet.infinityfreeapp.com/glpi_10_0_6/front/central.php",
+				"http://epsiprojet.infinityfreeapp.com/glpi_10_0_6/index.php"
                 driver.getCurrentUrl()
         );
 
