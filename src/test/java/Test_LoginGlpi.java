@@ -58,7 +58,7 @@ public class Test_LoginGlpi {
         assertEquals(
                 "Validate end URL",
         //        "http://epsiprojet.infinityfreeapp.com/glpi_10_0_6/front/central.php",
-				"http://epsiprojet.infinityfreeapp.com/glpi_10_0_6/index.php"
+				"http://epsiprojet.infinityfreeapp.com/glpi_10_0_6/index.php",
                 driver.getCurrentUrl()
         );
 
