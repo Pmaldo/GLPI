@@ -1,17 +1,15 @@
-
+import org.junit.After;
+import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
-
-import static org.hamcrest.MatcherAssert.*;
-import static org.junit.Assert.assertEquals;
-
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.JavascriptExecutor;
-import java.util.*;
+
+import java.util.Map;
+
+import static org.junit.Assert.assertEquals;
 
 public class Test_LoginGlpi {
     private WebDriver driver;
@@ -22,7 +20,7 @@ public class Test_LoginGlpi {
     public static void setupWebdriverChromeDriver() {
         // System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/chromedriver.exe");
         // for Firefox
-        System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/test/resources/geckodriver.exe");
+        //System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/test/resources/geckodriver.exe");
     }
 
     @Before
