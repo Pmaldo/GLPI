@@ -24,7 +24,7 @@
         <maven.site.version>3.12.1</maven.site.version>
         <spotbugs.version>4.7.3.0</spotbugs.version>
         <surefire.version>2.12.4</surefire.version>
-        <surefire.reportplugin.version>3.0.0-M7</surefire.reportplugin.version>
+        <surefire.reportplugin.version>2.12.4</surefire.reportplugin.version>
     </properties>
 
     <dependencies>
